@@ -35,7 +35,7 @@ jobs:
           port: 22
           username: root
           key: ${{ secrets.SSH_DEPLOY_PRIVATE_KEY }}
-          source: public
+          source: docker,docker-compose-prod.yaml,.env.prod,public
           target: /srv/${{ github.repository }}
           overwrite: true
 
