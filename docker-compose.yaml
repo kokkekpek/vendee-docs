@@ -1,0 +1,19 @@
+version: '3.9'
+services:
+  hugo:
+    container_name: hugo
+    image: peaceiris/hugo:v0.112.7-full
+    ports:
+      - "1313:1313"
+    volumes:
+      - ./archetypes:/src/archetypes:ro
+      - ./assets:/src/assets:ro
+      - ./content:/src/content:ro
+      - ./static:/src/static:ro
+      - ./themes:/src/themes:ro
+      - ./.gitmodules:/src/.gitmodules:ro
+      - ./config.toml:/src/config.toml:ro
+    command:
+      - server
+      - --bind=0.0.0.0
+      - --buildDrafts 

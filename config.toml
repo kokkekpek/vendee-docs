@@ -1,0 +1,31 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Vendee'
+theme = "codex"
+[params]
+  github = "https://github.com/kokkekpek/vendee"
+  telegram = "https://t.me/vendeeframework"
+  discord = "https://discord.gg/Ef57GCr5"
+
+  # Follow the Hugo date/time format reference here:
+  # https://gohugo.io/functions/format/#gos-layout-string
+  dateFormat = "2 Jan 2006"
+
+  # Titles for your icons (shown as tooltips), and also their display order.
+  iconOrder = [
+    "GitHub",
+    "Telegram",
+    "Discord"
+  ]
+
+[[menu.main]]
+  identifier = "one"
+  name = "one"
+  title = "one"
+  url = "/01-one"
+  weigth = 1
+[[menu.main]]
+  identifier = "two"
+  name = "two"
+  title = "two"
+  url = "/02-two"
