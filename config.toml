@@ -37,50 +37,56 @@ theme = "codex"
   url = "/compilation"
   weight = -98
 [[menu.main]]
-  identifier = "network-and-giver"
-  name = "Network and Giver"
-  title = "Network and Giver"
-  url = "/network-and-giver"
-  weight = -97
+  identifier = "network"
+  name = "Network"
+  title = "Network"
+  url = "/network"
+weight = -97
+[[menu.main]]
+  identifier = "giver"
+  name = "Giver"
+  title = "Giver"
+  url = "/giver"
+  weight = -96
 [[menu.main]]
   identifier = "tests"
   name = "Tests"
   title = "Tests"
   url = "/tests"
-  weight = -96
+  weight = -95
 [[menu.main]]
   identifier = "scripts"
   name = "Scripts"
   title = "Scripts"
   url = "/scripts"
-  weight = -95
+  weight = -94
 [[menu.main]]
   identifier = "se"
   name = "SE"
   title = "SE"
   url = "/se"
-  weight = -94
+  weight = -93
 [[menu.main]]
   identifier = "configuration"
   name = "Configuration"
   title = "Configuration"
   url = "/configuration"
-  weight = -93
+  weight = -92
 [[menu.main]]
   identifier = "examples"
   name = "Examples"
   title = "Examples"
   url = "/examples"
-  weight = -92
+  weight = -91
 [[menu.main]]
   identifier = "vs-locklift"
   name = "vs Locklift"
   title = "vs Locklift"
   url = "/vs-locklift"
-  weight = -91
+  weight = -90
 [[menu.main]]
   identifier = "roadmap"
   name = "Roadmap"
   title = "Roadmap"
   url = "/roadmap"
-  weight = -90
+  weight = -89
