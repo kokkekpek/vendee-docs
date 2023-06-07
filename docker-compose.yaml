@@ -9,6 +9,7 @@ services:
       - ./archetypes:/src/archetypes:ro
       - ./assets:/src/assets:ro
       - ./content:/src/content:ro
+      - ./layouts/shortcodes:/src/layouts/shortcodes:ro
       - ./static:/src/static:ro
       - ./themes:/src/themes:ro
       - ./.gitmodules:/src/.gitmodules:ro

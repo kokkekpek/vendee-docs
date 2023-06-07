@@ -1,3 +1,17 @@
 pre {
   background-color: #DDD !important;
 }
+
+a {
+  text-decoration: none;
+  color: #08C;
+}
+
+iframe {
+  border-radius: 4px 4px 4px 4px;
+}
+
+.post,
+.post img {
+  max-width: 54rem;
+}
