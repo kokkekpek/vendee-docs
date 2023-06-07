@@ -80,7 +80,9 @@ vendee giver <network> deploy
 
 ### vendee.config.ts
 
-You can set up giver in `vendee.config.ts`. Example:
+You can set up giver in `vendee.config.ts`
+
+**Example**
 
 ```typescript
 const config = {

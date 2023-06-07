@@ -4,19 +4,21 @@ date: 2023-06-01T00:00:03Z
 draft: false
 ---
 
-[Vendee](https://github.com/kokkekpek/vendee) use [DApp GraphQL](https://github.com/tonlabs/evernode-ds) endpoints.
+[Vendee](https://github.com/kokkekpek/vendee) using [DApp GraphQL](https://github.com/tonlabs/evernode-ds) endpoints
 
-Ways to find endpoints:
+**Where to get endpoints**
 
-* Public endpoints from [evercloud docs](https://docs.evercloud.dev/products/evercloud/networks-endpoints).
-* Use [evercloud.dev](https://www.evercloud.dev).
-* Up you own server using [evernode-ds](https://github.com/tonlabs/evernode-ds), [everscale-dapp-server](https://github.com/itgoldio/everscale-dapp-server) or [application-server](https://github.com/treeton-org/application-server)
+* Copy from [evercloud docs](https://docs.evercloud.dev/products/evercloud/networks-endpoints)
+* Use [evercloud.dev](https://www.evercloud.dev)
+* Up own server using [evernode-ds](https://github.com/tonlabs/evernode-ds), [everscale-dapp-server](https://github.com/itgoldio/everscale-dapp-server) or [application-server](https://github.com/treeton-org/application-server)
 
 ## Configuration
 
 ### vendee.config.ts
 
-You can add any network to `vendee.config.ts`. Example:
+You can add any network to `vendee.config.ts`
+
+**Example**
 
 ```typescript
 const config = {
@@ -33,7 +35,9 @@ const config = {
 
 ### .env
 
-You can store your endpoints if `.env` file. Example:
+You can store your endpoints if `.env` file
+
+**Example**
 
 ```env
 SE_ENDPOINT="http://localhost:8080"
@@ -45,6 +49,6 @@ VENOM_TESTNET_ENDPOINTS="https://gql-testnet.venom.foundation"
 
 ## SE network
 
-In default `vendee.config.ts` you can find `se` network.
+In `vendee.config.ts` you can find `se` network.
 This network is used for local testing.
-SE run and used automatically if you don't set up a network in [tests](/tests) and [scripts](/scripts)
+[SE](https://github.com/tonlabs/evernode-se) run and used automatically if you don't set up a network in [tests](/tests) and [scripts](/scripts)
