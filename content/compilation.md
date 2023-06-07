@@ -4,9 +4,7 @@ date: 2023-06-01T00:00:02Z
 draft: false
 ---
 
-## Compile
-
-### Interactive
+## Interactive
 
 ```shell
 npx vendee
@@ -14,7 +12,7 @@ npx vendee
 
 ![recompilation](/images/compile-interactive.gif)
 
-### Non-interactive
+## Non-interactive
 
 ```shell
 npx vendee compile [options]
