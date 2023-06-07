@@ -67,6 +67,10 @@ npx vendee clean
 
 ## Configuration
 
+You can set up compilation in `vendee.config.ts`
+
+**Example**
+
 ```typescript
 const config = {
   compile: {

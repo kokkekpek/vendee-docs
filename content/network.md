@@ -10,7 +10,9 @@ draft: false
 
 * Copy from [evercloud docs](https://docs.evercloud.dev/products/evercloud/networks-endpoints)
 * Use [evercloud.dev](https://www.evercloud.dev)
-* Up own server using [evernode-ds](https://github.com/tonlabs/evernode-ds), [everscale-dapp-server](https://github.com/itgoldio/everscale-dapp-server) or [application-server](https://github.com/treeton-org/application-server)
+* Up own server
+  using [evernode-ds](https://github.com/tonlabs/evernode-ds), [everscale-dapp-server](https://github.com/itgoldio/everscale-dapp-server)
+  or [application-server](https://github.com/treeton-org/application-server)
 
 ## Configuration
 
@@ -44,11 +46,12 @@ SE_ENDPOINT="http://localhost:8080"
 VENOM_TESTNET_ENDPOINTS="https://gql-testnet.venom.foundation"
 ```
 
-`.env` under `.gitignone` by default. You can publish your project to git and not be afraid that your personal endpoint will become known to everyone
-
+`.env` under `.gitignone` by default. You can publish your project to GIT and not be afraid that your personal endpoint
+will become known to everyone
 
 ## SE network
 
 In `vendee.config.ts` you can find `se` network.
 This network is used for local testing.
-[SE](https://github.com/tonlabs/evernode-se) run and used automatically if you don't set up a network in [tests](/tests) and [scripts](/scripts)
+[SE](https://github.com/tonlabs/evernode-se) run and used automatically if you don't set up a network in [tests](/tests)
+and [scripts](/scripts)

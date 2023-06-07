@@ -99,15 +99,21 @@ const config = {
 }
 ```
 
-* `giver` - type of giver e.g. `safeMultiSigWallet`. It is recommended to use `safeMultiSigWallet` for all networks
-  except `se`. Available values: `v2`, `v3`, `safeMultiSigWallet`
+* `giver` - Optional. Type of giver e.g. `safeMultiSigWallet`. Available
+  values: `v2.se`, `v3.se`, `safeMultiSigWallet.se`, `v2`, `v3`, `safeMultiSigWallet`.
+  It is recommended to use `safeMultiSigWallet` for all networks except `se`. Default is `v3.se`
 * `keys.name` - Optional. Generate `<keys directory>/<name>.json` if file doesn't exist and is used for the
-  giver e.g. `myGiver`
-* `keys.file` - Optional. Read key pair from file e.g. `/home/user/keys/giver.json`
+  giver e.g. `myGiver`. Default is `''`
+* `keys.file` - Optional. Read key pair from file e.g. `/home/user/keys/giver.json`. Default is `''`
+
+### SE givers
+
+`v2.se`, `v3.se`, `safeMultiSigWallet.se` don't require `keys`. It
+used [hardcoded keys](https://github.com/tonlabs/evernode-se/tree/master/contracts)
 
 ### Keys
 
-* Set `name` if you want to generate and read key pair from `<keys directory>/<name>.json`
-* Set `file` if you want to read key pair by absolute path
-* Make `name` and `file` empty if you want to generate and read key pair
+* Set `keys.name` if you want to generate and read key pair from `<keys directory>/<name>.json`
+* Set `keys.file` if you want to read key pair by absolute path
+* Make `keys.name` and `keys.file` empty if you want to generate and read key pair
   from `<keys directory>/<network name>.giver.json`
