@@ -15,7 +15,7 @@ npx vendee test <network>
 
 * `network` - network from `vendee.config.ts` e.g `venom testnet`
 
-[TODO VIDEO]
+![test-interactive](/images/tests/test-interactive.gif)
 
 ### Non-interactive
 
@@ -28,7 +28,7 @@ npx vendee test -n <network> [-c] [patterns...]
 * `-n, --network [network]` - Optional. Network from `vendee.config.ts` e.g `venom testnet`
 * `-c, --no-compile` - Optional. Don't compile
 
-[TODO VIDEO]
+![test](/images/tests/test.gif)
 
 ## From the box
 

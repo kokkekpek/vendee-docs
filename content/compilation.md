@@ -10,7 +10,7 @@ draft: false
 npx vendee
 ```
 
-![recompilation](/images/compile-interactive.gif)
+![recompilation](/images/compilation/compile-interactive.gif)
 
 ## Non-interactive
 
@@ -23,13 +23,13 @@ Options:
 * `-a, --all` - compile all contracts
 * `-h, --help` - display help for command
 
-![recompilation](/images/compile.gif)
+![recompilation](/images/compilation/compile.gif)
 
 ## Recompilation
 
 Recompile only changed files. If you change one file, then only that file, or those that import it, will be recompiled
 
-![recompilation](/images/recompilation.gif)
+![recompilation](/images/compilation/recompile.gif)
 
 ## Artifacts
 
@@ -53,7 +53,7 @@ Remove compilation artifacts and cache directory
 npx vendee
 ```
 
-![clean-interactive](/images/clean-interactive.gif)
+![clean-interactive](/images/compilation/clean-interactive.gif)
 
 ## Non-interactive
 
@@ -61,7 +61,7 @@ npx vendee
 npx vendee clean
 ```
 
-![clean](/images/clean.gif)
+![clean](/images/compilation/clean.gif)
 
 ## Configuration
 

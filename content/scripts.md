@@ -15,7 +15,7 @@ npx vendee run <network>
 
 * `network` - network from `vendee.config.ts` e.g `venom testnet`
 
-[TODO VIDEO]
+![run-interactive](/images/scripts/run-interactive.gif)
 
 ### Non-interactive
 
@@ -27,7 +27,7 @@ npx vendee run -n <network> [-c] <script>
 * `-n, --network [network]` - Optional. Network from `vendee.config.ts` e.g `venom testnet`
 * `-c, --no-compile` - Optional. Don't compile
 
-[TODO VIDEO]
+![run](/images/scripts/run.gif)
 
 ## From the box
 

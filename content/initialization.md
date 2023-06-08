@@ -10,10 +10,10 @@ draft: false
 npx vendee@latest
 ```
 
-![recompilation](/images/init.gif)
+![recompilation](/images/initialization/init.gif)
 
 ## Initialize project in not empty directory
 
 **Vendee** ask to move files to `backup` directory and initialize project
 
-![recompilation](/images/init-and-backup.gif)
+![recompilation](/images/initialization/init-and-backup.gif)

@@ -15,7 +15,7 @@ npx vendee giver <network>
 
 * `network` - network from `vendee.config.ts` e.g `venom testnet`
 
-[TODO VIDEO]
+![info-interactive](/images/giver/info-interactive.gif)
 
 ### Non-interactive
 
@@ -25,7 +25,7 @@ npx vendee giver <network> info
 
 * `network` - network from `vendee.config.ts` e.g `venom testnet`
 
-[TODO VIDEO]
+![info](/images/giver/info.gif)
 
 ## Send
 
@@ -39,7 +39,7 @@ npx vendee giver <network> send
 
 * `network` - network from `vendee.config.ts` e.g `venom testnet`
 
-[TODO VIDEO]
+![send-interactive](/images/giver/send-interactive.gif)
 
 ### Non-interactive
 
@@ -51,7 +51,7 @@ vendee giver -t <to> -v <value> <network> send
 * `-t, --to <to>` - address to send coins e.g. `0:0000000000000000000000000000000000000000000000000000000000000000`
 * `-v, --value <value>` - coins value e.g. `0.1`
 
-[TODO VIDEO]
+![info](/images/giver/send.gif)
 
 ## Deploy
 
@@ -64,7 +64,7 @@ npx vendee giver <network>
 
 * `network` - network from `vendee.config.ts` e.g `venom testnet`
 
-[TODO VIDEO]
+![deploy](/images/giver/deploy.gif)
 
 ### Non-interactive
 
@@ -74,7 +74,7 @@ vendee giver <network> deploy
 
 * `network` - network from `vendee.config.ts` e.g `venom testnet`
 
-[TODO VIDEO]
+![deploy-interactive](/images/giver/deploy-interactive.gif)
 
 ## Configuration
 
